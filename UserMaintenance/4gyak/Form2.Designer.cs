@@ -1,6 +1,6 @@
 ﻿namespace _4gyak
 {
-    partial class Form1
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.

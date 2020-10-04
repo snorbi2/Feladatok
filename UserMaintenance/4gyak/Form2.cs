@@ -7,7 +7,7 @@ using Excel = Microsoft.Office.Interop.Excel;
 
 namespace _4gyak
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
 
         RealEstateEntities context = new RealEstateEntities();
@@ -17,7 +17,7 @@ namespace _4gyak
         Excel.Workbook xlWB;
         Excel.Worksheet xlSheet;
 
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
             LoadData();
