@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMaintenance", "UserMaintenance\UserMaintenance.csproj", "{1EA8AE04-1CC5-47C8-80BF-1797E30EC61D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4gyak", "4gyak\4gyak.csproj", "{F05B6902-E118-4290-896F-4F91DFF4F8E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{6D783D16-8C74-4A44-B030-3127E0ADD3C6}"
 EndProject
@@ -13,10 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1EA8AE04-1CC5-47C8-80BF-1797E30EC61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EA8AE04-1CC5-47C8-80BF-1797E30EC61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1EA8AE04-1CC5-47C8-80BF-1797E30EC61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1EA8AE04-1CC5-47C8-80BF-1797E30EC61D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F05B6902-E118-4290-896F-4F91DFF4F8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05B6902-E118-4290-896F-4F91DFF4F8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05B6902-E118-4290-896F-4F91DFF4F8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05B6902-E118-4290-896F-4F91DFF4F8E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
