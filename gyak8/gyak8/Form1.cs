@@ -1,4 +1,5 @@
-﻿using gyak8.entities;
+﻿using gyak8.Abstractions;
+using gyak8.entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -52,6 +53,41 @@ namespace gyak8
                 mainPanel.Controls.Remove(oldestBall);
                 _balls.Remove(oldestBall);
             }
+        }
+
+        private Toy _nextToy;
+
+        private IToyFactory _factory;
+        public IToyFactory Factory
+        {
+            get { return _factory; }
+            set
+            {
+                _factory = value;
+                DisplayNext();
+            }
+        }
+
+        // ...
+
+        private void btnSelectCar_Click(object sender, EventArgs e)
+        {
+            Factory = new CarFactory();
+        }
+
+        private void btnSelectBall_Click(object sender, EventArgs e)
+        {
+            Factory = new BallFactory();
+        }
+
+        private void DisplayNext()
+        {
+            if (_nextToy != null)
+                Controls.Remove(_nextToy);
+            _nextToy = Factory.CreateNew();
+            _nextToy.Top = lblNext.Top + lblNext.Height + 20;
+            _nextToy.Left = lblNext.Left;
+            Controls.Add(_nextToy);
         }
     }
 }
